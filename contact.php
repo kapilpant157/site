@@ -10,6 +10,6 @@ $headers ="From: ".$mailFrom;
 $txt = "You have a message from ".$name;".\n\n".$message;
  
 mail($mailTo, $subject, $txt, $headers);
-header("Location: index.htmlmailsent");
+header("Location: index.html");
 } 
 ?>
