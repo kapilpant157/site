@@ -14,12 +14,12 @@ $email_body = "Name: $name.\n".
 "Message: $message";
 
 
-$to = "kapilpant157@gmail.com";
+$mailto = "kapilpant157@gmail.com";
 $headers ="From: ".$mailFrom;
 $headers ="Reply=To: $mailFrom";
 
-mail($to, $subject, $txt, $headers);
+mail($mailto, $subject, $txt, $headers);
 
-header("Location: index.htmlmailsent");
+header("Location: index.html");
 
 ?>
