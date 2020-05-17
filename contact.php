@@ -18,7 +18,7 @@ $to = "kapilpant157@gmail.com";
 $headers ="From: ".$mailFrom;
 $headers ="Reply=To: $mailFrom";
 
-mail($too, $subject, $txt, $headers);
+mail($to, $subject, $txt, $headers);
 
 header("Location: index.htmlmailsent");
 
