@@ -1,25 +1,20 @@
 <?php
 
-$name = $_POST['name'];
-$mailFrom = $_POST['email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+$name = $_POST['$name'];
+$email = $_POST['$email'];
+$subject = $_POST['$subject'];
+$message = $_POST['$message'];
 
+if (empty($name) || empty($email) || empty($subject) ||empty($message)) {
+	echo "Pleage fill data in the fields";
 
-$email_from = 'Website';
+}
+else{
+	mail("Kapilpant157@gmail.com", "Message form website", $message , "From: $name < $email>");
+	echo "<script type= 'text/javascript'> alert('your message is sent ');
+	window.history.log(-1);
+	</script>";
+}
 
-$email_body = "Name: $name.\n".
-"Email: $email".
-"Subject: $subject".
-"Message: $message";
-
-
-$mailto = "kapilpant157@gmail.com";
-$headers ="From: ".$mailFrom;
-$headers ="Reply=To: $mailFrom";
-
-mail($mailto, $subject, $txt, $headers);
-
-header("Location: index.html");
 
 ?>
