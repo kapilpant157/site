@@ -1,9 +1,4 @@
-/* Theme Name: Alita - A Responsive Multipurpose HTML Templates
-   Author: Shreethemes
-   Version: 1.0.0
-   Created: March 2018
-   File Description:Main JS file of the template
-*/
+
 (function ($) {
 
     'use strict';
@@ -41,10 +36,7 @@
             event.preventDefault();
         });
 
-    //SCROLLSPY
-        $(".navbar-nav").scrollspy({
-            offset: 20
-        });
+    
 
     //sticky header on scroll
         $(window).scroll(function() {    
@@ -84,13 +76,7 @@
         })
 
     // Loader 
-        $(window).on('load', function() {
-            $('#status').fadeOut();
-            $('#preloader').delay(350).fadeOut('slow');
-            $('body').delay(350).css({
-                'overflow': 'visible'
-            });
-        });
+        
 
         // BACK TO TOP
         $(window).scroll(function(){

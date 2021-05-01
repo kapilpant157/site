@@ -1,0 +1,113 @@
+
+
+.text-custom,
+.navbar-light .navbar-nav li a:hover,
+.navbar-light .navbar-nav li a:active,
+.navbar-light .navbar-nav li.active a,
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:active,
+.navbar-custom .navbar-nav li.active a,
+.footer-subscribe i:hover,
+.company-sub-menu li a:hover {
+    padding: 3px;
+}
+
+
+.btn,
+.btn:focus,
+button,
+.form-control:focus,
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent;
+    !important;
+}
+
+.bg-custom,
+.btn-custom,
+.main-slider .flex-control-paging li a.flex-active,
+
+.contact-border,
+
+#carouselExampleIndicators .carousel-indicators .active {
+    background-color: #152238;
+}
+.back-to-top:hover{
+    background-color: #23395d;
+}
+
+.btn-custom,
+.registration-input-box:focus,
+.form-control:focus,.team-social li a:hover,
+.testi-icon,
+
+.main-slider .flex-control-paging li a,
+#carouselExampleIndicators .carousel-control-prev span,
+#carouselExampleIndicators .carousel-control-next span  {
+    border-color: #152238;
+}
+
+
+
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom,
+.btn-outline-white.active,
+.btn-outline-white.focus,
+.btn-outline-white:active,
+.btn-outline-white:focus,
+.btn-outline-white:hover,
+.open > .dropdown-toggle.btn-outline-white,
+
+/*.btn-outline-custom.active,
+.btn-outline-custom.focus,
+.btn-outline-custom:active,
+.btn-outline-custom:focus,
+.btn-outline-custom:hover,*/
+.open > .dropdown-toggle.btn-outline-custom {
+    border-color: #152238;
+    background-color: black;
+    color: #ffffff;
+}
+
+.btn-custom-white:hover,
+.btn-custom-white:focus,
+.btn-custom-white:active,
+.open > .dropdown-toggle.btn-custom-white {
+    background-color: #ffffff;
+    color: #152238;
+}
+
+
+.plan-price,
+#carouselExampleIndicators .carousel-indicators li {
+    background-color: rgba(63, 135, 245, 0.2);
+}
+
+.services-box .services-icon i {
+    background: linear-gradient(to left, #ffffff 50%, rgba(63, 135, 245, 0.05) 0%);
+}
+.services-box {
+    background-color: rgba(63, 135, 245, 0.05);
+}
+
+.bg-gradient-custom {
+    background: #56ab2f;
+    background: -webkit-linear-gradient(to right, #56ab2f, #152238, #56ab2f);
+    background: linear-gradient(to right, #56ab2f, #152238, #56ab2f);
+}
+
+.bg-navyblue {
+    background-color: #243B55;
+}
+
+.bg-gradient-nblue {
+    background: #1c2e42;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #1c2e42,#243B55,);  
+    background: linear-gradient(to right, #243B55, #1c2e42, #243B55,);
+
+.text-lightan {
+    color: #c1c1c1 !important;
+}
