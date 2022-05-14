@@ -20,8 +20,7 @@ button,
 button:focus {
     outline: none !important;
     box-shadow: none !important;
-    border-color: transparent;
-    !important;
+    border-color: transparent !important;
 }
 
 .bg-custom,
@@ -106,7 +105,8 @@ button:focus {
 .bg-gradient-nblue {
     background: #1c2e42;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #243B55, #1c2e42,#243B55,);  
-    background: linear-gradient(to right, #243B55, #1c2e42, #243B55,);
+    background: linear-gradient(to right, #243B55, #1c2e42, #243B55);
+}
 
 .text-lightan {
     color: #c1c1c1 !important;

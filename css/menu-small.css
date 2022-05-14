@@ -41,18 +41,18 @@
     color: #ffffff;
 }
 
-.logo {
+/* .logo {
     color: #fff !important;
    
     font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
     font-size: 26px;
-}
+} */
 
 .navbar-custom .navbar-nav li.active a,
 .navbar-custom .navbar-nav li a:hover,
 .navbar-custom .navbar-nav li a:active {
-    padding: 3px:;
+    padding: 3px;
 }
 
 .navbar-toggle {
